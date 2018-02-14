@@ -7,9 +7,12 @@ public class Main {
 	}
 	
 	public static void main(String[] args) {
-		//comment
 		
-		//comment change again
-		System.out.println("Hello world");
+		String [] names= {"name1","name2","name3","name4"};
+		
+		for (String name : names) {
+			System.out.println("Name: "+name);
+		}
+		
 	}
 }
